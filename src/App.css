@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: black;
+  padding: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
   color: white;
+  text-align: left;
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.thumbnail {
+  width: 100%;
 }
+
+.thumbnail-row {
+  align-items: center;
+}
+
+.video-title {
+  margin-top: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-picture {
+  width: 60px;
+  border-radius: 50px;
+}
+
+.thumbnail-row {
+  margin-bottom: 2px;
+}
+
+.video-author, .views, .likes {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+.video-info {
+  margin-left: 35px;
+}
+
+.video-info p {
+  margin: 2px;
+}
+
+.video-info2 {
+  display: flex;
+}
+
+.views {
+  display: flex;
+  
+}
+
+.likes {
+  display: flex;
+  margin-left: 20px;
+}
+
+
+
+
+
+
